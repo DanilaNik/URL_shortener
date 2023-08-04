@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)
 
-![UrlShortener][UrlShortener]
+![UrlShortener](https://github.com/DanilaNik/URL_shortener/tree/main/Media/URL-Short.jpg)
 
 Микросервис для сокращения ссылок, сохранение и удаление ссылок и их псевдонимов, редирект по псведонимам.(Для сохранения и удаления URL необходима авторизация)
 
@@ -21,40 +21,30 @@
 
 Сохранение с авторизацией и не зарезервированным alias:
 
-![UrlSaveOK][UrlSaveOK]
-
+![UrlSaveOK](https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveOK.png)
 
 Сохранение с авторизацией и зарезервированным alias:
 
-![UrlSaveError][UrlSaveError]
+![UrlSaveError](https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveError.png)
 
 Сохранение без указания alias:
-![saveNoAlias][saveNoAlias]
+![saveNoAlias](https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveNoAlias.png)
 
 Сохранение с неудачной попыткой авторизации:
 
-![NoAuth][NoAuth]
+![NoAuth](https://github.com/DanilaNik/URL_shortener/tree/main/Media/NoAuth.png)
 
 
 ### Удаление <a name="save"></a>
 
 Удаление существующего alias:
 
-![deleteAlias][deleteAlias.png]
+![deleteAlias](https://github.com/DanilaNik/URL_shortener/tree/main/Media/deleteAlias.png)
 
 Удаление несуществующего alias:
 
-![deleteNoAlias][deleteNoAlias]
+![deleteNoAlias](https://github.com/DanilaNik/URL_shortener/tree/main/Media/deleteNoAlias.png)
 
 ### Редирект <a name="save"></a>
 
 ![redirect](/Media/redirect.gif)
-
-
-[UrlShortener]: https://github.com/DanilaNik/URL_shortener/tree/main/Media/URL-Short.jpg
-[UrlSaveOK]: https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveOK.png
-[UrlSaveError]: https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveError.png
-[NoAuth]: https://github.com/DanilaNik/URL_shortener/tree/main/Media/NoAuth.png
-[saveNoAlias]: https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveNoAlias.png
-[deleteAlias]: https://github.com/DanilaNik/URL_shortener/tree/main/Media/deleteAlias.png
-[deleteNoAlias]: https://github.com/DanilaNik/URL_shortener/tree/main/Media/deleteNoAlias.png
