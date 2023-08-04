@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)
 
-![UrlShortener](https://github.com/DanilaNik/URL_shortener/tree/main/Media/URL-Short.jpg)
+![UrlShortener](/Media/URL-Short.jpg)
 
 Микросервис для сокращения ссылок, сохранение и удаление ссылок и их псевдонимов, редирект по псведонимам.(Для сохранения и удаления URL необходима авторизация)
 
@@ -21,29 +21,29 @@
 
 Сохранение с авторизацией и не зарезервированным alias:
 
-![UrlSaveOK](https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveOK.png)
+![UrlSaveOK](/Media/saveOK.png)
 
 Сохранение с авторизацией и зарезервированным alias:
 
-![UrlSaveError](https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveError.png)
+![UrlSaveError](/Media/saveError.png)
 
 Сохранение без указания alias:
-![saveNoAlias](https://github.com/DanilaNik/URL_shortener/tree/main/Media/saveNoAlias.png)
+![saveNoAlias](Media/saveNoAlias.png)
 
 Сохранение с неудачной попыткой авторизации:
 
-![NoAuth](https://github.com/DanilaNik/URL_shortener/tree/main/Media/NoAuth.png)
+![NoAuth](/Media/NoAuth.png)
 
 
 ### Удаление <a name="save"></a>
 
 Удаление существующего alias:
 
-![deleteAlias](https://github.com/DanilaNik/URL_shortener/tree/main/Media/deleteAlias.png)
+![deleteAlias](/Media/deleteAlias.png)
 
 Удаление несуществующего alias:
 
-![deleteNoAlias](https://github.com/DanilaNik/URL_shortener/tree/main/Media/deleteNoAlias.png)
+![deleteNoAlias](/Media/deleteNoAlias.png)
 
 ### Редирект <a name="save"></a>
 
