@@ -35,7 +35,7 @@
 ![NoAuth](/Media/NoAuth.png)
 
 
-### Удаление <a name="save"></a>
+### Удаление <a name="delete"></a>
 
 Удаление существующего alias:
 
@@ -45,6 +45,6 @@
 
 ![deleteNoAlias](/Media/deleteNoAlias.png)
 
-### Редирект <a name="save"></a>
+### Редирект <a name="redirect"></a>
 
 ![redirect](/Media/redirect.gif)
