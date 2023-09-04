@@ -4,13 +4,16 @@
 
 ![UrlShortener](/Media/URL-Short.jpg)
 
+## Задача:
 Микросервис для сокращения ссылок, сохранение и удаление ссылок и их псевдонимов, редирект по псведонимам.(Для сохранения и удаления URL необходима авторизация)
 
-Используемые технологии:
-- SQLite (в качестве хранилища данных)
-- Chi (веб фреймворк)
-- go-sqlite3 (драйвер для работы с SQLite)
-- golang/testify (для тестирования)
+## Используемые технологии:
+- Go v1.20
+- Роутер                - [go-chi/chi](https://github.com/go-chi/chi) 
+- SQLite        
+- Драйвер БД            - [go-sqlite3](github.com/mattn/go-sqlite3)
+- Валидатор пакетов     - [go-playground/validator](https://github.com/go-playground/validator)
+- Логгер                - [slog](https://pkg.go.dev/golang.org/x/exp/slog)   
 
 ## Examples
 - [Сохранение](#save)
