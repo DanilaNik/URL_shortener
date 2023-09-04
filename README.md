@@ -4,10 +4,10 @@
 
 ![UrlShortener](/Media/URL-Short.jpg)
 
-## Задача:
+### Задача:
 Микросервис для сокращения ссылок, сохранение и удаление ссылок и их псевдонимов, редирект по псведонимам.(Для сохранения и удаления URL необходима авторизация)
 
-## Используемые технологии:
+### Используемые технологии:
 - Go v1.20
 - Роутер                - [go-chi/chi](https://github.com/go-chi/chi) 
 - SQLite        
@@ -15,7 +15,7 @@
 - Валидатор пакетов     - [go-playground/validator](https://github.com/go-playground/validator)
 - Логгер                - [slog](https://pkg.go.dev/golang.org/x/exp/slog)   
 
-## Examples
+### Examples
 - [Сохранение](#save)
 - [Удаление](#delete)
 - [Редирект](#redirect)
